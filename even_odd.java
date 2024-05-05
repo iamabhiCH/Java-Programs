@@ -1,5 +1,3 @@
-
-
 // WAP to check the given number is even or odd..
 
 import java.util.Scanner;
@@ -17,11 +15,11 @@ public class even_odd {
 
         if(x % 2 == 0){
             System.out.println(x+" is even number.");
-            System.out.println("Thank you..");
+            System.out.println("Thank you for using this application.");
         }
         else{
             System.out.println(x+" is odd number.");
-            System.out.println("Thank you..");
+            System.out.println("Thank you for using this application.");
         }
     }
 }
