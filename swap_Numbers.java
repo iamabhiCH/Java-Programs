@@ -13,9 +13,9 @@ public class swap_Numbers {
         Scanner sc = new Scanner(System.in);
 
         // Taking input from user..
-        System.out.print("Enter your first number : ");
+        System.out.print("Please enter the first number : ");
         int x = sc.nextInt();
-        System.out.print("Enter your second number : ");
+        System.out.print("Please enter the second number : ");
         int y = sc.nextInt();
 
         // Logic for swapping..
