@@ -1,5 +1,3 @@
-
-
 // WAP to take a number as input from user and print that number as outpur.
 
 import java.util.Scanner;
@@ -17,6 +15,6 @@ public class input_output {
 
         // Printing output..
         System.out.println("You entered "+x);
-        System.out.println("Thank You.......");
+        System.out.println("Thank You for using this.");
     }
 }
