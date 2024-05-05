@@ -1,5 +1,3 @@
-
-
 // WAP to find the largest number among the given three numbers..
 
 import java.util.Scanner;
@@ -12,11 +10,11 @@ public class largest_Number {
         Scanner sc = new Scanner(System.in);
 
         // Taking input from user..
-        System.out.print("Enter your first number : ");
+        System.out.print("Enter Your First Number : ");
         int x = sc.nextInt();
-        System.out.print("Enter your second number : ");
+        System.out.print("Enter Your Second Number : ");
         int y = sc.nextInt();
-        System.out.print("Enter your third number : ");
+        System.out.print("Enter Your Third Number : ");
         int z = sc.nextInt();
 
         if(x > y){
