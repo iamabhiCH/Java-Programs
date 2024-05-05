@@ -1,5 +1,3 @@
-
-
 // WAP to find that the given number is prime or not.....
 
 import java.util.Scanner;
@@ -8,7 +6,7 @@ public class prime_number {
     public static void main(String[] str) {
         Scanner sc = new Scanner(System.in);
 
-        System.out.print("Enter your number : ");
+        System.out.print("Please enter the number : ");
         int x = sc.nextInt();
 
         boolean flg = true;
@@ -20,10 +18,10 @@ public class prime_number {
             }
         }
         if(flg){
-            System.out.println(x+" is prime number.");
+            System.out.println(x+" is a prime number.");
         }
         else{
-            System.out.println(x+" is non-prime number.");
+            System.out.println(x+" is a non-prime number.");
         }
     }
 }
