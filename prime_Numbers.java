@@ -8,7 +8,7 @@ public class prime_Numbers {
     public static void main(String[] str) {
         Scanner sc = new Scanner(System.in);
 
-        System.out.print("Enter the value of N : ");
+        System.out.print("Please enter the value of N : ");
         int n = sc.nextInt();
 
         boolean flg = true;
