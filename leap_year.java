@@ -7,19 +7,19 @@ public class leap_year {
         Scanner sc = new Scanner(System.in);
 
         System.out.print("Please Enter a Year in numeric format : ");
-        int year = sc.nextInt();
+        int y = sc.nextInt();
 
-        if(year % 400 == 0){
-            System.out.println(year+" is a leap year.");
+        if(y % 400 == 0){
+            System.out.println(y+" is a leap year.");
         }
-        else if (year % 100 == 0) {
-            System.out.println(year + " is not a leap year.");
+        else if (y % 100 == 0) {
+            System.out.println(y + " is not a leap year.");
         }
-        else if (year % 4 == 0) {
-            System.out.println(year+" is a leap year.");
+        else if (y % 4 == 0) {
+            System.out.println(y+" is a leap year.");
         }
         else{
-            System.out.println(year+" is not a leap year.");
+            System.out.println(y+" is not a leap year.");
         }
     }
 }
