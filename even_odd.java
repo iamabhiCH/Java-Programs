@@ -10,7 +10,7 @@ public class even_odd {
         Scanner sc = new Scanner(System.in);
 
         // Taking input from user..
-        System.out.print("Enter your number : ");
+        System.out.print("Enter the number : ");
         int x = sc.nextInt();
 
         if(x % 2 == 0){
