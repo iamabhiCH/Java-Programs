@@ -14,7 +14,7 @@ public class even_odd {
         int x = sc.nextInt();
 
         if(x % 2 == 0){
-            System.out.println(x+" is even number.");
+            System.out.println(x+" is a even number.");
             System.out.println("Thank you for using this application.");
         }
         else{
